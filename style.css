@@ -1,18 +1,41 @@
-
 *{
   margin:0;
-  padding: 0;
-  border: 2px solid black;
+  padding:0;
 }
 
-#contenitore {
-  width: 100vw;
-  height: 100vh;
+.blocchi {
+  width: 98vw;
+  height: 27.3vh;
+  background-size: cover;
+  background-position:center;
+  margin: 1vw;
   position: relative;
+
 }
 
-.blocchi{
- width: 100%;
- height: 33%;
+.blocchi:first-child {
+  background-image: url("https://siviaggia.files.wordpress.com/2019/08/asti1-min.jpg");
+}
+.blocchi:nth-child(2) {
+  background-image: url("https://www.lumi4innovation.it/app/uploads/2019/11/iot-smart-city-tornio-digital-transformation-1024x684.jpg");
+}
+.blocchi:nth-child(3) {
+  background-image: url("https://siviaggia.files.wordpress.com/2017/10/alba-piemonte-cosa-vedere.jpg?w=1080");
 
+}
+
+h1{
+  text-shadow:2px 2px 2px black;
+ color: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255,255, 0.4);
 }
